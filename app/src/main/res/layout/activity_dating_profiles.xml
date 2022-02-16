@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DatingProfiles">
+
+    <ImageButton
+        android:id="@+id/datingProfileA"
+        android:layout_width="124dp"
+        android:layout_height="121dp"
+        app:srcCompat="@drawable/star2"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="190dp"
+        android:layout_marginLeft="20dp"/>
+
+    <ImageButton
+        android:id="@+id/datingProfileC"
+        android:layout_width="124dp"
+        android:layout_height="121dp"
+        app:srcCompat="@drawable/star2"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="429dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Dating Profiles"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="47dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Click on a profile to learn more about them"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="87dp" />
+
+    <ImageButton
+        android:id="@+id/datingProfileD"
+        android:layout_width="124dp"
+        android:layout_height="121dp"
+        app:srcCompat="@drawable/star2"
+        tools:layout_editor_absoluteX="230dp"
+        tools:layout_editor_absoluteY="429dp"
+        android:layout_marginRight="20dp"/>
+
+    <ImageButton
+        android:id="@+id/datingProfileB"
+        android:layout_width="124dp"
+        android:layout_height="121dp"
+        app:srcCompat="@drawable/star2"
+        tools:layout_editor_absoluteX="230dp"
+        tools:layout_editor_absoluteY="190dp"
+        android:layout_marginRight="20dp"/>
+
+    <TextView
+        android:layout_width="121dp"
+        android:layout_height="43dp"
+        android:gravity="center"
+        android:text="User A"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="322dp" />
+
+    <TextView
+        android:layout_width="123dp"
+        android:layout_height="39dp"
+        android:gravity="center"
+        android:text="User B"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="231dp"
+        tools:layout_editor_absoluteY="322dp" />
+
+    <TextView
+        android:layout_width="121dp"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:text="User C"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="565dp" />
+
+    <TextView
+        android:layout_width="125dp"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:text="User D"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="230dp"
+        tools:layout_editor_absoluteY="565dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
